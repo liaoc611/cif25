@@ -1,0 +1,77 @@
+@font-face {
+  font-family: "VCR";
+  src: local("VCR"),
+       url("/four/imgs/VCR_OSD_MONO_1.001.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LowerResolution";
+  src: local("LowerResolution"),
+       url("./imgs/LowerResolution.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+  
+body{
+    margin: 75px;
+background-image: url('/four/imgs/film-grain-vid.gif'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
+    background-blend-mode: overlay;
+    background-repeat: repeat;
+}
+
+
+.narrator p {
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: transparent;
+}
+
+.narrator p:hover {
+  color: gainsboro;
+}
+
+.narrator-right p {
+      display: flex;
+  justify-content: flex-end;
+  color: transparent;
+}
+
+.narrator-right p:hover {
+  color: gainsboro;
+}
+
+.narrator-center p {
+text-align: center;
+  color: transparent;
+}
+
+.narrator-center p:hover {
+  color: gainsboro;
+}
+
+
+.third-person{
+    color: gainsboro;
+    font-style: italic;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.narrator-angry p{
+    font-family:VCR;
+    color: transparent;
+    font-size: 300px;
+    line-height: 0.8;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.narrator-angry p:hover{
+    color: gainsboro;
+
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-9/oth829.ani), url(https://cur.cursors-4u.net/others/oth-9/oth829.png), auto !important;} /* End https://www.cursors-4u.com */

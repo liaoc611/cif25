@@ -1,0 +1,45 @@
+
+body{
+    background-image: url('/five/imgs/background.jpg');
+    background-size: cover;
+    color: bisque;
+    text-shadow: 0 0 10px coral;
+    margin: 50px;
+}
+
+.wrapper{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.wrapper > * {
+flex: 1 100%;} 
+
+.column {
+  flex: 25%;
+  padding: 30px;
+}
+
+.secret {
+text-align: center;
+padding: 50px;
+color: transparent;
+}
+.secret span{
+  text-decoration: underline;
+}
+.secret p:hover {
+  color: bisque;
+  text-shadow: 0 0 10px coral;
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 50%;
+  }
+}
+.column img{
+    box-shadow: 0 0 20px coral;
+}
