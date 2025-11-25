@@ -1,0 +1,68 @@
+.irish-grover-regular {
+  font-family: "Irish Grover", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+color: burlywood;
+text-shadow: 0 0 10px orangered;
+font-size: 19px;
+display: flex;
+flex-direction: column;
+margin-top: 200px;
+justify-content: center;
+align-items: center; 
+background-image: url(/ten/imgs/background.JPG);
+background-size: cover;
+background-repeat: no-repeat;
+padding-top: 65px;
+padding-bottom: 200px;
+}
+
+.scrollabletextbox {
+p{
+    margin-bottom: 75px;
+}
+-webkit-mask-image: linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent);
+mask-image: linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent);
+line-height: 1.2;
+height: 200px;
+width:1000px;
+overflow-y:scroll;
+color: burlywood;
+background: burlywood 0.1;
+text-shadow: 0 0 10px orangered;
+font-size: 18px;
+text-align: center;
+font-family: "Irish Grover";
+}
+
+.scrollabletextbox::-webkit-scrollbar {
+color: transparent;
+}
+
+.button{
+color: burlywood;
+text-shadow: 0 0 10px orangered;
+padding: 10px 50px;
+border-radius: 30px;
+border-style: solid;
+border-color: burlywood;
+font-size: 18px;
+font-family: "Irish Grover";
+background-color:lightcoral;
+box-shadow: 0 0 10px orangered;
+}
+
+.header img{
+height: 30px;
+width: auto;
+filter: hue-rotate(20deg) brightness(1.3) saturate(75%);
+}
+
+.unstyled * {
+  all: unset;
+  display: revert;
+}
+
