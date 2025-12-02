@@ -1,7 +1,7 @@
 @font-face {
   font-family: "VCR";
   src: local("VCR"),
-       url("/four/imgs/VCR_OSD_MONO_1.001.ttf") format("truetype");
+       url("/cif25/four/imgs/VCR_OSD_MONO_1.001.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -9,14 +9,14 @@
 @font-face {
   font-family: "LowerResolution";
   src: local("LowerResolution"),
-       url("./imgs/LowerResolution.ttf") format("truetype");
+       url("/cif25/four/imgs/LowerResolution.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
   
 body{
     margin: 75px;
-background-image: url('/four/imgs/film-grain-vid.gif'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
+background-image: url('/cif25/four/imgs/film-grain-vid.gif'), linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.75));
     background-blend-mode: overlay;
     background-repeat: repeat;
 }

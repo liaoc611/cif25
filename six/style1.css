@@ -17,6 +17,6 @@ filter: sepia(0.5);
   height: auto;
 }
 body{
-    background-image: url("/six/src/room.png");
+    background-image: url("/cif25/six/src/room.png");
     background-size: cover;
 }
