@@ -24,7 +24,7 @@ mix-blend-mode: multiply;
   margin-top: -200px;
 }
 body{
-    background-image: url("cif25/six/src/room.png");
+    background-image: url("/cif25/six/src/room.png");
     background-size: cover;
     backdrop-filter: hue-rotate(150deg);
     backdrop-filter: blur (15px);
