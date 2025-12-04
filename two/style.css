@@ -1,14 +1,14 @@
 
 body{
     position: center;
+    align-content: center;
+text-align: center;
+padding-top: 70px;
     span {
         background-color: #ffffff;
     }
-align-content: center;
-text-align: center;
-padding-top: 70px;
 
-background-image: url('cif25/two/imgs/IMG_6432-glow.png');
+background-image: url('/cif25/two/imgs/IMG_6432-glow.png');
 background-position:top; 
 background-size: cover;
 }
