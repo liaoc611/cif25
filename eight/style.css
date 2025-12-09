@@ -1,0 +1,58 @@
+body{
+background-image: url(/eight/imgs/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+font-style: italic;
+color: azure;
+text-shadow: 0 0 10px darkslategray;
+}
+.container{
+padding-top: 120px;
+display: grid;
+grid-template-columns: 100px repeat(3, 1fr) 100px;
+grid-template-rows: repeat(7, 150px);
+grid-column-gap: 0px;
+grid-row-gap: 100px;
+}
+.third-person-narrator { 
+grid-area: 1 / 3 / 6 / 4;; 
+text-align: center;
+}
+
+.third-person-narrator p{
+    padding-bottom: 70px;
+}
+
+.jumbled-text { grid-area: 1 / 1 / 2 / 2; }
+.jumbled-text-1 { grid-area: 2 / 5 / 3 / 6;  
+text-align: right;}
+.jumbled-text-2 { grid-area: 3 / 1 / 4 / 2; }
+.jumbled-text-3 { grid-area: 4 / 5 / 5 / 6; 
+text-align: right;}
+.jumbled-text-4 { grid-area: 5 / 1 / 6 / 2; }
+.jumbled-text-5 {grid-area: 6 / 3 / 7 / 7;
+text-align: right;}
+.warning{
+ grid-area: 7 / 3 / 8 / 4;
+ text-align: center;
+text-overflow: clip;
+text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1.2rem; 
+  }
+
+  .third-person-narrator {
+    font-size: 1.5rem;
+  }
+
+.jumbled-text, .jumbled-text-1, .jumbled-text-2, .jumbled-text-3, .jumbled-text-4, .jumbled-text-5, .warning{
+    font-size: 1.2rem; 
+  }
+
+  .warning {
+    font-size: 1.2rem;
+  }
+}

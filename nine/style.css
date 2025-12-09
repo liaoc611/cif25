@@ -1,0 +1,61 @@
+body {
+    color: azure;
+    text-shadow: 0 0 10px azure;
+    margin: 100px;
+    background-color: black;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 30%, rgba(0,0,0,1) 100%), url(/cif25/nine/assets/galaxy.gif);
+}
+
+.conversation {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.first-person-narrator,
+.first-person-narrator-1,
+.first-person-narrator-2,
+.first-person-narrator-3,
+.first-person-narrator-4 {
+        font-family: "KiwiSoda";
+    font-size: 18px;
+    justify-self: start;
+    text-align: left;
+    width: 60ch;
+}
+
+.third-person-narrator,
+.third-person-narrator-1,
+.third-person-narrator-2,
+.third-person-narrator-3,
+.third-person-narrator-4 {
+    font-style: italic;
+    justify-self: end;
+    text-align: right;
+    width: 60ch;
+}
+.exit-ticket{
+    padding-top: 200px;
+    text-align: center;
+}
+
+@font-face {
+  font-family: "KiwiSoda";
+  src: local("KiwiSoda"),
+       url("/cif25/nine/assets/KiwiSoda.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a:link {
+font-style: italic;
+  color: azure; 
+}
+
+a:visited{
+    color: azure;
+}
+
+a:active{
+    color: azure;
+}
