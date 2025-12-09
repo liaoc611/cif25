@@ -20,3 +20,26 @@ body{
     background-image: url("/cif25/six/src/room.png");
     background-size: cover;
 }
+
+@media (max-width: 480px) {
+
+    .container {
+        grid-template-rows: repeat(5, auto);
+        height: auto;
+        padding-top: 40px;
+    }
+
+    .tape-gif img {
+        max-width: 180px;
+    }
+
+    .audio-controls {
+        transform: scale(0.6);
+        margin-top: -80px;
+    }
+
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+}

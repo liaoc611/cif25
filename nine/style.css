@@ -67,3 +67,39 @@ a:visited{
 a:active{
     color: azure;
 }
+
+@media (max-width: 480px) {
+
+    body {
+        margin: 30px;
+        background-size: cover;
+        text-shadow: 0 0 6px azure;
+    }
+
+    .first-person-narrator,
+    .first-person-narrator-1,
+    .first-person-narrator-2,
+    .first-person-narrator-3,
+    .first-person-narrator-4,
+    .third-person-narrator,
+    .third-person-narrator-1,
+    .third-person-narrator-2,
+    .third-person-narrator-3,
+    .third-person-narrator-4 {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .third-person-narrator,
+    .third-person-narrator-1,
+    .third-person-narrator-2,
+    .third-person-narrator-3,
+    .third-person-narrator-4 {
+        justify-self: start;
+        text-align: left;
+    }
+
+    .exit-ticket {
+        padding-top: 120px;
+    }
+}
