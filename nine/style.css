@@ -33,6 +33,14 @@ body {
     justify-self: end;
     text-align: right;
     width: 60ch;
+    animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+  70%      { opacity: 0.8; }
+  90%      { opacity: 0.6; }
 }
 .exit-ticket{
     padding-top: 200px;
