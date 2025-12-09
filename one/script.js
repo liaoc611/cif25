@@ -1,5 +1,5 @@
-    document.getElementById('closeCheckbox').addEventListener('change', function() {
-        if (this.checked) {
-            window.close();
-        }
-    });
+document.getElementById('closeCheckbox').addEventListener('change', function() {
+    if (this.checked) {
+        document.body.style.display = "none";
+    }
+});
